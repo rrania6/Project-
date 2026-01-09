@@ -1,0 +1,142 @@
+/* Global */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Conteneur principal */
+.cv-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px 40px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+}
+
+/* En-tête */
+.cv-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.cv-header h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.cv-header h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #555;
+}
+
+.contact p {
+    font-size: 0.9rem;
+}
+
+.contact a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+/* Sections */
+.cv-section {
+    margin-bottom: 25px;
+}
+
+.cv-section h3 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-left: 4px solid #0066cc;
+    padding-left: 8px;
+    margin-bottom: 10px;
+}
+
+/* Grille principale */
+.cv-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+/* Items */
+.item {
+    margin-bottom: 15px;
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-title {
+    font-weight: 600;
+}
+
+.item-date {
+    font-size: 0.85rem;
+    color: #777;
+}
+
+/* Bloc compétences pleine largeur */
+.cv-competences {
+    border-top: 2px solid #e0e0e0;
+    padding-top: 15px;
+}
+
+.competences-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+.competence-col ul {
+    margin-left: 18px;
+}
+
+/* Langues */
+.cv-languages {
+    border-top: 2px solid #e0e0e0;
+    padding-top: 15px;
+}
+
+.languages-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.languages-list div {
+    background-color: #f7f9fc;
+    padding: 10px 20px;
+    border-radius: 6px;
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+
+/* Références */
+.cv-references {
+    border-top: 2px solid #e0e0e0;
+    padding-top: 15px;
+}
+
